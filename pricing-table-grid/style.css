@@ -1,3 +1,8 @@
+:root {
+    --main-color: green;
+    --nem-main-color: yellow;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -12,7 +17,7 @@ body {
 }
 
 .cash {
-    background-color: red;
+    background-color: var(--nem-main-color);
     color: white;
     padding: 20px;
 }
